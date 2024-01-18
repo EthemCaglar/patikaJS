@@ -1,0 +1,42 @@
+:root{
+    --grad--redyellow : linear-gradient(to right, red, yellow);
+    --grad--purpgreen : linear-gradient(to left, #b4c44a, #c79bb6);
+}
+
+.gradient-background {
+    background: linear-gradient(to right,deepskyblue,#c79bb6,#b4c44a);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+  
+    @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.gradient-text {
+    background-image: linear-gradient(30deg,#00c8ff,#ff009d,#e1ff00);
+    background-size: 100%;
+    background-clip: text;
+    color: transparent;
+    animation: gradient-animation2 5s ease infinite;
+}
+  
+    @keyframes gradient-animation2 {
+    0% {
+      background-position: 0% 33%;
+    }
+    50% {
+      background-position: 33% 66%;
+    }
+    100% {
+      background-position: 66% 100%;
+    }
+  }

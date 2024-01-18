@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What time is it?</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="startTime()" class="gradient-background">
+    <div class="d-flex justify-content-center pt-5">
+        <h1 class="gradient-text pt-5">What Time Is It?</h1>
+    </div>
+    <div class="d-flex justify-content-center text-warning pt-2">
+        <p id="namebar"></p>
+    </div>
+    <div class="d-flex justify-content-center">
+        <strong><h2 id="time"><span class="badge text-muted bg-info">DAmN</span></h2></strong>
+    </div>
+    <div class="d-flex justify-content-center">
+        <div class="spinner-grow text-muted"></div>
+        <div class="spinner-grow text-primary"></div>
+        <div class="spinner-grow text-success"></div>
+        <div class="spinner-grow text-info"></div>
+        <div class="spinner-grow text-warning"></div>
+        <div class="spinner-grow text-danger"></div>
+        <div class="spinner-grow text-secondary"></div>
+        <div class="spinner-grow text-dark"></div>
+        <div class="spinner-grow text-light"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
